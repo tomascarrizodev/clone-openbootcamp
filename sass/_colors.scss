@@ -1,0 +1,20 @@
+/* Variables */
+$color-green: #4defa7;
+$color-lightblue: #20ded3;
+$color-blue: #2d71fa;
+$color-dark: #111427;
+$color-dark-hover: #6b6f80;
+$color-lightgrey: #f9fafb;
+$color-grey: #f3f3f6;
+$color-shadow: lighten($color-dark-hover, 40%);
+$color-greentoblue: linear-gradient(to right, $color-green, $color-blue);
+$color-bluetogreen: linear-gradient(to right, $color-blue, $color-green);
+$color-btn-gr-greentoblue: linear-gradient(to right, $color-green, $color-lightblue);
+
+// Benefits
+$benefits-lightgreen: $color-green;
+$benefits-lightgreen-light: lighten($benefits-lightgreen, 25%);
+$benefits-purple: #8567db;
+$benefits-purple-light: lighten($benefits-purple, 25%);
+$benefits-blue: #1fddd2;
+$benefits-blue-light: lighten($benefits-blue, 25%);

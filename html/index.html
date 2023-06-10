@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Bootcamp | Aprende y Encuentra empleo GRATIS - CLON</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.webp" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="https://open-bootcamp.com/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 550 150" alt="OpenBootcamp Logo" role="img"
+                class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicLogo_svg__DNShe">
+                    <path
+                    d="M190.101 60.606c-5.309 0-10.107-1.143-14.393-3.43-4.237-2.286-7.573-5.423-10.009-9.412-2.386-4.038-3.579-8.562-3.579-13.573 0-5.01 1.193-9.51 3.579-13.499 2.436-4.037 5.772-7.2 10.009-9.486 4.286-2.286 9.084-3.43 14.393-3.43 5.309 0 10.082 1.144 14.319 3.43 4.238 2.287 7.574 5.449 10.009 9.486 2.435 3.99 3.653 8.489 3.653 13.5 0 5.01-1.218 9.534-3.653 13.572-2.435 3.989-5.771 7.126-10.009 9.413-4.237 2.286-9.01 3.43-14.319 3.43zm0-10.07c3.02 0 5.747-.68 8.182-2.043 2.436-1.41 4.335-3.356 5.699-5.837 1.412-2.481 2.119-5.303 2.119-8.465s-.707-5.983-2.119-8.464c-1.364-2.48-3.263-4.402-5.699-5.764-2.435-1.411-5.162-2.117-8.182-2.117-3.02 0-5.747.706-8.183 2.117-2.435 1.362-4.359 3.283-5.771 5.764-1.364 2.481-2.046 5.302-2.046 8.464 0 3.162.682 5.984 2.046 8.465 1.412 2.48 3.336 4.427 5.771 5.837 2.436 1.362 5.163 2.043 8.183 2.043zm57.843-30.646c3.653 0 6.965.85 9.936 2.553 3.02 1.654 5.382 4.014 7.087 7.078 1.705 3.017 2.557 6.543 2.557 10.581 0 4.038-.852 7.589-2.557 10.653-1.705 3.017-4.067 5.376-7.087 7.078-2.971 1.654-6.283 2.481-9.936 2.481-5.016 0-8.961-1.58-11.835-4.743v18.316l-11.397-3.005V20.473h10.886v4.524c2.825-3.405 6.94-5.107 12.346-5.107zm-1.972 31.084c2.922 0 5.309-.973 7.16-2.918 1.899-1.995 2.849-4.646 2.849-7.954s-.95-5.935-2.849-7.88c-1.851-1.995-4.238-2.992-7.16-2.992-2.922 0-5.333.997-7.233 2.991-1.851 1.946-2.776 4.573-2.776 7.881s.925 5.96 2.776 7.954c1.9 1.945 4.311 2.918 7.233 2.918zm66.222-10.726c0 .146-.073 1.167-.219 3.065H282.24c.536 2.432 1.802 4.353 3.799 5.764 1.997 1.41 4.481 2.116 7.452 2.116 2.046 0 3.848-.292 5.406-.875 1.608-.633 3.093-1.606 4.457-2.92l6.064 6.568c-3.702 4.232-9.108 6.348-16.219 6.348-4.432 0-8.353-.85-11.763-2.554-3.409-1.75-6.039-4.159-7.89-7.224-1.851-3.064-2.776-6.542-2.776-10.434 0-3.843.901-7.297 2.703-10.362 1.851-3.113 4.359-5.52 7.525-7.223 3.215-1.752 6.794-2.627 10.74-2.627 3.847 0 7.33.827 10.447 2.48 3.117 1.654 5.552 4.038 7.306 7.151 1.802 3.065 2.703 6.64 2.703 10.727zM291.811 28.5c-2.582 0-4.749.73-6.503 2.189-1.753 1.46-2.824 3.454-3.214 5.983h19.36c-.389-2.48-1.461-4.45-3.214-5.91-1.754-1.508-3.897-2.262-6.429-2.262zm50.399-8.61c4.871 0 8.792 1.459 11.763 4.378 3.019 2.918 4.529 7.248 4.529 12.988v22.475h-11.397V39.007c0-3.113-.682-5.424-2.045-6.932-1.364-1.556-3.337-2.335-5.918-2.335-2.874 0-5.163.9-6.868 2.7-1.704 1.752-2.557 4.378-2.557 7.88v19.41H318.32V20.474h10.886v4.597c1.51-1.654 3.385-2.918 5.625-3.794 2.241-.924 4.701-1.386 7.379-1.386zm-136.806 83.385c2.946.985 5.254 2.645 6.924 4.979 1.67 2.281 2.504 5.108 2.504 8.479 0 4.771-1.768 8.453-5.303 11.046-3.487 2.541-8.593 3.812-15.321 3.812h-26.664V77.138h25.191c6.285 0 11.098 1.27 14.437 3.811 3.388 2.541 5.082 5.99 5.082 10.347 0 2.644-.614 5.004-1.841 7.078-1.179 2.075-2.848 3.708-5.009 4.901zm-26.001-16.647v12.835h11.859c2.946 0 5.18-.544 6.703-1.633 1.522-1.09 2.283-2.697 2.283-4.823 0-2.126-.761-3.708-2.283-4.745-1.523-1.09-3.757-1.634-6.703-1.634h-11.859zm13.921 35.472c3.143 0 5.5-.544 7.071-1.633 1.621-1.089 2.431-2.775 2.431-5.057 0-4.511-3.167-6.767-9.502-6.767h-13.921V122.1h13.921zm47.115 10.113c-4.174 0-7.93-.908-11.269-2.723-3.29-1.867-5.868-4.434-7.734-7.701-1.866-3.267-2.799-6.975-2.799-11.124 0-4.149.933-7.857 2.799-11.124 1.866-3.267 4.444-5.808 7.734-7.623 3.339-1.867 7.095-2.8 11.269-2.8s7.906.933 11.196 2.8c3.29 1.815 5.868 4.356 7.734 7.623 1.866 3.267 2.799 6.975 2.799 11.124 0 4.149-.933 7.857-2.799 11.124-1.866 3.267-4.444 5.834-7.734 7.701-3.29 1.815-7.022 2.723-11.196 2.723zm0-9.957c2.947 0 5.353-1.037 7.219-3.112 1.915-2.126 2.872-4.952 2.872-8.479 0-3.526-.957-6.327-2.872-8.401-1.866-2.126-4.272-3.19-7.219-3.19-2.946 0-5.377 1.064-7.292 3.19-1.915 2.074-2.872 4.875-2.872 8.401 0 3.527.957 6.353 2.872 8.479 1.915 2.075 4.346 3.112 7.292 3.112zm46.793 9.957c-4.174 0-7.93-.908-11.269-2.723-3.29-1.867-5.868-4.434-7.734-7.701-1.866-3.267-2.799-6.975-2.799-11.124 0-4.149.933-7.857 2.799-11.124 1.866-3.267 4.444-5.808 7.734-7.623 3.339-1.867 7.095-2.8 11.269-2.8s7.906.933 11.196 2.8c3.29 1.815 5.868 4.356 7.734 7.623 1.866 3.267 2.799 6.975 2.799 11.124 0 4.149-.933 7.857-2.799 11.124-1.866 3.267-4.444 5.834-7.734 7.701-3.29 1.815-7.022 2.723-11.196 2.723zm0-9.957c2.947 0 5.353-1.037 7.219-3.112 1.915-2.126 2.872-4.952 2.872-8.479 0-3.526-.957-6.327-2.872-8.401-1.866-2.126-4.272-3.19-7.219-3.19-2.946 0-5.377 1.064-7.292 3.19-1.915 2.074-2.873 4.875-2.873 8.401 0 3.527.958 6.353 2.873 8.479 1.915 2.075 4.346 3.112 7.292 3.112zm53.496 7.312c-1.129.882-2.529 1.556-4.198 2.023-1.621.415-3.34.622-5.157.622-4.714 0-8.372-1.271-10.975-3.812-2.553-2.541-3.83-6.275-3.83-11.202v-17.191h-6.113v-9.335h6.113V77.138l11.491 3.345v10.19h9.87v9.335h-9.87v17.036c0 1.763.417 3.137 1.252 4.123.884.933 2.112 1.4 3.683 1.4 1.817 0 3.364-.519 4.64-1.556l3.094 8.557zm22.905 2.645c-4.223 0-8.028-.908-11.417-2.723-3.339-1.867-5.966-4.434-7.881-7.701-1.866-3.267-2.799-6.975-2.799-11.124 0-4.149.933-7.857 2.799-11.124 1.915-3.267 4.542-5.808 7.881-7.623 3.389-1.867 7.194-2.8 11.417-2.8 4.174 0 7.808.933 10.902 2.8 3.142 1.815 5.426 4.434 6.85 7.857l-8.913 5.056c-2.062-3.838-5.033-5.757-8.912-5.757-2.996 0-5.476 1.038-7.44 3.112-1.964 2.074-2.946 4.901-2.946 8.479 0 3.578.982 6.405 2.946 8.479 1.964 2.075 4.444 3.112 7.44 3.112 3.928 0 6.899-1.919 8.912-5.757l8.913 5.135c-1.424 3.319-3.708 5.912-6.85 7.779-3.094 1.866-6.728 2.8-10.902 2.8zm38.878-43.096c6.139 0 10.853 1.556 14.143 4.668 3.29 3.06 4.935 7.701 4.935 13.924v23.882h-10.754v-5.212c-2.161 3.889-6.187 5.834-12.08 5.834-3.045 0-5.696-.545-7.955-1.634-2.21-1.089-3.904-2.593-5.083-4.511-1.178-1.919-1.767-4.097-1.767-6.535 0-3.889 1.375-6.949 4.125-9.179 2.799-2.23 7.095-3.345 12.89-3.345h9.133c0-2.645-.761-4.667-2.283-6.068-1.522-1.452-3.806-2.178-6.85-2.178-2.112 0-4.199.363-6.261 1.09-2.014.674-3.732 1.607-5.156 2.8l-4.125-8.48c2.16-1.607 4.738-2.852 7.734-3.733a33.462 33.462 0 019.354-1.323zm-.883 34.928c1.964 0 3.707-.467 5.229-1.4 1.523-.986 2.603-2.412 3.241-4.279v-4.278h-7.881c-4.714 0-7.071 1.633-7.071 4.901 0 1.555.564 2.8 1.694 3.734 1.178.881 2.774 1.322 4.788 1.322zm79.638-34.928c4.959 0 8.888 1.556 11.785 4.668 2.946 3.06 4.419 7.675 4.419 13.846v23.96h-11.49v-22.093c0-3.319-.663-5.782-1.989-7.39-1.277-1.659-3.118-2.489-5.524-2.489-2.701 0-4.837.933-6.409 2.8-1.571 1.816-2.357 4.538-2.357 8.168v21.004h-11.49v-22.093c0-6.586-2.505-9.879-7.513-9.879-2.652 0-4.764.933-6.335 2.8-1.571 1.816-2.357 4.538-2.357 8.168v21.004h-11.491V89.74h10.975v4.823a14.615 14.615 0 015.377-4.045c2.161-.934 4.518-1.4 7.071-1.4 2.799 0 5.328.596 7.587 1.788 2.259 1.141 4.076 2.827 5.451 5.057a16.486 16.486 0 016.113-5.056c2.505-1.193 5.23-1.79 8.177-1.79zm48.454 0c3.683 0 7.022.908 10.017 2.723 3.045 1.763 5.426 4.278 7.145 7.546 1.719 3.215 2.578 6.975 2.578 11.279 0 4.305-.859 8.09-2.578 11.357-1.719 3.216-4.1 5.731-7.145 7.546-2.995 1.763-6.334 2.645-10.017 2.645-5.058 0-9.036-1.685-11.933-5.056v22.593l-11.49-3.068V89.74h10.975v4.823c2.848-3.63 6.997-5.446 12.448-5.446zm-1.989 33.139c2.946 0 5.352-1.037 7.218-3.112 1.916-2.126 2.873-4.952 2.873-8.479 0-3.526-.957-6.327-2.873-8.401-1.866-2.126-4.272-3.19-7.218-3.19-2.946 0-5.377 1.064-7.292 3.19-1.866 2.074-2.799 4.875-2.799 8.401 0 3.527.933 6.353 2.799 8.479 1.915 2.075 4.346 3.112 7.292 3.112z"
+                    fill="#0B082D"></path>
+                    <circle cx="46.04" cy="45.75" r="45.5" fill="#0BF082"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M94.457 45.856H45.505v89.421h48.952c13.208 0 23.915-10.707 23.915-23.915 0-8.909-4.872-16.68-12.097-20.795 7.225-4.115 12.097-11.887 12.097-20.796 0-13.208-10.707-23.915-23.915-23.915z"
+                    fill="#047AF3"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M91.165 45.856c0 25.187-20.442 45.605-45.657 45.605h-.003V45.856h45.66z" fill="#0DC0CB"></path>
+                </svg>
+            </a>
+        </div>
+        <ul class="header-list">
+            <li><a href="#">Especializaciones</a></li>
+            <li><a href="#">¿Eres una empresa?</a></li>
+            <li><a href="#">Trabaja como Developer</a></li>
+            <li><a href="#">¿Quieres ser profesor?</a></li>
+        </ul>
+        <div class="header-btn">
+            <button class="header-btn-campus">Ir al campus</button>
+            <button class="header-btn-start">Empieza ya</button>
+        </div>
+    </header>
+    <section class="sec-presentation">
+        <h1 class="presentation-title">El bootcamp <span class="text-gr">gratuito</span> que se adapta a ti</h1>
+        <p class="presentation-text">Especialízate en desarrollo independientemente de tu nivel de conocimientos y
+            experiencia, nosotros nos adaptaremos a tus objetivos.</p>
+        <button class="start-now btn-dark mt-4">Empieza ya</button>
+        <div class="benefits">
+            <img src="../assets/img/benefits-img.webp" alt="Chico con computadora" class="benefits-img">
+            <div class="benefits-box">
+                <div class="main-benefit benefit-green">
+                    <div class="main-benefit-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1em" width="1em"
+                            style="fill: currentcolor;" role="img"
+                            class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicHomepage_svg__i1EPx__Dzqmm">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.25 12.6c0-.746.604-1.35 1.35-1.35h4.9a.75.75 0 010 1.5H6.75v6.5h10.5v-.75a.75.75 0 011.5 0v.9a1.35 1.35 0 01-1.35 1.35H6.6a1.35 1.35 0 01-1.35-1.35v-6.8zm4.56-8.893c.616-.292 1.344-.457 2.19-.457 1.844 0 3.07.785 3.809 1.812.711.988.941 2.151.941 2.938v4a.75.75 0 01-1.5 0V8c0-.547-.17-1.383-.659-2.062-.46-.64-1.235-1.188-2.591-1.188-.647 0-1.152.125-1.548.313a.75.75 0 11-.642-1.356z"
+                                fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M15.25 12a.75.75 0 01.75-.75h1.4c.746 0 1.35.604 1.35 1.35v.4a.75.75 0 01-1.5 0v-.25H16a.75.75 0 01-.75-.75zM8 7.25a.75.75 0 01.75.75v4a.75.75 0 01-1.5 0V8A.75.75 0 018 7.25z"
+                                fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2.47 2.47a.75.75 0 011.06 0l18 18a.75.75 0 11-1.06 1.06l-18-18a.75.75 0 010-1.06z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <span class="main-benefit-text">Sin compromisos</span>
+                </div>
+                <div class="main-benefit benefit-blue">
+                    <span class="main-benefit-text">A tu ritmo</span>
+                    <div class="main-benefit-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 22" height="1em" width="1em"
+                            style="fill: currentcolor;" role="img"
+                            class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicHomepage_svg___9VjQn__CJ2ky">
+                            <path
+                                d="M6.443 0H1.871A1.862 1.862 0 000 1.87v17.944c0 1.04.831 1.87 1.87 1.87h4.573c1.04 0 1.87-.83 1.87-1.87V1.871A1.86 1.86 0 006.444 0zm0 20.472H1.871a.658.658 0 01-.659-.658V1.87c0-.346.278-.658.659-.658h4.572c.347 0 .658.277.658.658v1.213h-1.42a.62.62 0 00-.624.623.62.62 0 00.624.624h1.42v1.628h-2.39a.62.62 0 00-.623.623.62.62 0 00.623.624h2.39v1.628h-1.42a.62.62 0 00-.624.624.62.62 0 00.624.623h1.42v1.628h-2.39a.621.621 0 00-.623.624.62.62 0 00.623.623h2.39v1.628h-1.42a.62.62 0 00-.624.624.62.62 0 00.624.623h1.42v1.629h-2.39a.621.621 0 00-.623.623.62.62 0 00.623.624h2.39v1.212c0 .242-.311.554-.658.554zM16.385.139C15.623.104 14.826.104 14.03.104c-.728 0-1.282.589-1.317 1.455 0 .416 0 .831-.034 1.212v.451h-.035.45l4.088.034h.416V1.628c.069-.866-.45-1.49-1.213-1.49zm-3.602 3.949l-.035 1.039v2.356c0 2.91-.035 5.82-.035 8.729 0 .242.035.45.104.658.347 1.04.693 2.113 1.04 3.152l.242.762c.07.174.139.347.242.485.312.416.832.555 1.248.278a.68.68 0 00.311-.312 3.28 3.28 0 00.208-.485l.242-.728c.312-.866.59-1.697.901-2.563l.035-.104c.138-.381.277-.831.277-1.351v-4.642l.035-6.686v-.103l.034-.45-4.85-.035zm3.775 13.06l-.034.103a33.699 33.699 0 01-.624 1.767h-1.593c-.277-.797-.52-1.559-.797-2.356-.035-.069-.035-.138-.035-.207.243.069.52.069.866-.104.174.104.416.173.728.173.242 0 .485-.07.762-.208.208.139.554.242.935.173-.069.208-.138.416-.208.658z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="main-benefit benefit-purple">
+                    <div class="main-benefit-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 24" height="1em" width="1em"
+                            style="fill: currentcolor;" role="img"
+                            class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicHomepage_svg__jxAxH__Ep1kq">
+                            <path
+                                d="M16.432 12.547a1.264 1.264 0 100 1.787 1.271 1.271 0 000-1.787zm-2.494 3.489a1.263 1.263 0 101.264 1.263 1.278 1.278 0 00-1.264-1.263zM4.956 9.58A1.263 1.263 0 106.22 8.317 1.28 1.28 0 004.956 9.58zm8.984 1.264a1.263 1.263 0 10-1.262-1.264 1.279 1.279 0 001.263 1.264zm-7.718 5.192a1.263 1.263 0 000 2.527 1.263 1.263 0 100-2.527zm3.856 1.603a1.23 1.23 0 00-1.157.78 1.188 1.188 0 000 .956c.064.152.153.293.264.415a1.258 1.258 0 10.893-2.151z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M20.16 13.44a10.03 10.03 0 00-2.39-6.502l.71-.71.246.246a.84.84 0 001.188-1.188l-1.68-1.68a.84.84 0 00-1.188 1.188l.246.246-.71.71a10.026 10.026 0 00-5.66-2.347V1.68H12.6a.84.84 0 100-1.68H7.56a.84.84 0 100 1.68h1.683L9.24 4.195V12.6H.84a.84.84 0 00-.84.84 10.08 10.08 0 1020.16 0zm-10.08 8.4a8.412 8.412 0 01-8.357-7.56h8.357a.84.84 0 00.84-.84V5.082a8.401 8.401 0 01-.84 16.758z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <span class="main-benefit-text">Personalizable</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-promesas">
+        <div class="promesas-description">
+            <h2 class="promesas-title">Te ayudamos a encontrar trabajo</h2>
+            <p class="promesas-text">A lo largo de tu formación recibirás asesoramiento para mejorar tu CV y te
+                prepararemos para realizar entrevistas con nuestras empresas colaboradoras.</p>
+            <p class="promesas-text">Esta formación es gratuita para ti y NO se te descontará nada del salario de la
+                oferta de trabajo que consigas.</p>
+            <button class="start-now btn-blue mt-5">Empieza ya</button>
+        </div>
+        <div class="promesas-jobs">
+            <h4 class="promesas-jobs-title">Te preparamos para diversos puestos:</h4>
+            <div class="jobs-box">
+                <img src="../assets/img/jobs-fullstack.webp" alt="Fullstack" class="jobs-img" />
+                <div class="jobs-description">
+                    <div class="jobs-title">Fullstack Developer</div>
+                    <span class="jobs-text">Git &nbsp;|&nbsp; JavaScript &nbsp;|&nbsp; Python &nbsp;|&nbsp;
+                        Angular...</span>
+                </div>
+            </div>
+            <div class="jobs-box">
+                <img src="../assets/img/jobs-frontend.webp" alt="Front-End" class="jobs-img" />
+                <div class="jobs-description">
+                    <div class="jobs-title">Front-End Developer</div>
+                    <span class="jobs-text">React &nbsp;|&nbsp; HTML y CSS &nbsp;|&nbsp; Angular &nbsp;|&nbsp;
+                        JavaScript...</span>
+                </div>
+            </div>
+            <div class="jobs-box">
+                <img src="../assets/img/jobs-backend.webp" alt="Back-End" class="jobs-img" />
+                <div class="jobs-description">
+                    <div class="jobs-title">Back-End Developer</div>
+                    <span class="jobs-text">Spring &nbsp;|&nbsp; JUnit &nbsp;|&nbsp; Java &nbsp;|&nbsp; Git
+                        &nbsp;|&nbsp; Python...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-profesores">
+        <img src="../assets/img/profesores.webp" alt="profesores" class="profesores-img" />
+        <div class="profesores-description">
+            <h4 class="profesores-title">Los mejores profesores</h4>
+            <p class="profesores-text">Contamos con los mejores profesionales del sector de la formación, encargados de
+                crear el contenido de los cursos de nuestra plataforma junto a nuestros técnicos y desarrolladores.</p>
+            <button class="start-now btn-blue">Empieza ya</button>
+        </div>
+    </section>
+    <section class="sec-plataforma">
+        <div class="plataforma-description">
+            <h4 class="plataforma-title">Una plataforma única</h4>
+            <p class="plataforma-text">Nuestro campus diseñado por formadores expertos permite vivir la mejor
+                experiencia de aprendizaje.</p>
+            <button class="start-now btn-light">Empieza ya</button>
+        </div>
+    </section>
+    <section class="sec-comunity">
+        <img src="../assets/img/comunity.webp" alt="Comunidad" class="comunity-img" />
+        <div class="comunity-description">
+            <h4 class="comunity-description-title">Una comunidad diferencial</h4>
+            <div class="comunity-description-box">
+                <div class="comunity-box">
+                    <div class="comunity-icon comunity-icon-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 28 28" height="1em" width="1em"
+                            style="fill: currentcolor;" role="img"
+                            class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicHomepage_svg__bIy4U__qwze8">
+                            <path
+                                d="M22.688 6.236A3.814 3.814 0 0019.005 3.5 3.842 3.842 0 0015.182 7h-2.363a3.847 3.847 0 00-3.83-3.5 3.812 3.812 0 00-3.677 2.736l-2.93 9.762a1.223 1.223 0 00-.049.335V17.5a5.84 5.84 0 005.835 5.833 5.837 5.837 0 005.339-3.5h.987c.903 2.057 2.953 3.5 5.338 3.5a5.84 5.84 0 005.835-5.834v-1.166c0-.114-.018-.226-.05-.334l-2.929-9.763zM8.168 21a3.506 3.506 0 01-3.501-3.5c0-.089.02-.172.026-.259A3.494 3.494 0 018.166 14a3.5 3.5 0 013.5 3.5v.01A3.505 3.505 0 018.168 21zm11.664 0a3.505 3.505 0 01-3.498-3.49v-.01a3.5 3.5 0 017-.001A3.506 3.506 0 0119.832 21z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <p class="comunity-text">
+                        <span class="comunity-title comunity-blue">Explora</span> los foros de cada una de las
+                        tecnologías que impartimos.
+                    </p>
+                </div>
+            </div>
+            <div class="comunity-description-box">
+                <div class="comunity-box">
+                    <div class="comunity-icon comunity-icon-purple">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 28 28" height="1em" width="1em"
+                            style="fill: currentcolor;" role="img"
+                            class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicHomepage_svg___4KqhX__6TP2g">
+                            <path
+                                d="M11.192 12.8c-.633 0-1.13.553-1.13 1.23 0 .674.51 1.23 1.13 1.23.631 0 1.13-.556 1.13-1.23.012-.678-.499-1.23-1.13-1.23zm4.046 0c-.633 0-1.13.553-1.13 1.23 0 .674.51 1.23 1.13 1.23.631 0 1.13-.556 1.13-1.23-.002-.678-.499-1.23-1.13-1.23z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M20.624 3.5H5.772A2.277 2.277 0 003.5 5.783v14.985a2.277 2.277 0 002.271 2.283H18.34l-.59-2.052 1.42 1.32 1.341 1.24 2.385 2.108V5.783A2.277 2.277 0 0020.624 3.5zm-4.279 14.475s-.399-.476-.73-.9c1.451-.41 2.005-1.318 2.005-1.318a6.423 6.423 0 01-1.275.656 7.443 7.443 0 01-1.606.476 7.792 7.792 0 01-2.872-.012 9.27 9.27 0 01-1.628-.478c-.255-.1-.534-.22-.809-.375-.034-.024-.066-.034-.099-.056a.137.137 0 01-.045-.035c-.2-.11-.31-.187-.31-.187s.531.887 1.94 1.308c-.333.42-.744.92-.744.92-2.449-.077-3.379-1.684-3.379-1.684 0-3.569 1.596-6.46 1.596-6.46 1.597-1.199 3.114-1.165 3.114-1.165l.111.133C9.62 9.375 8.7 10.25 8.7 10.25s.245-.133.654-.32c1.186-.52 2.127-.665 2.515-.7.067-.01.123-.021.19-.021a9.05 9.05 0 015.574 1.042s-.876-.831-2.76-1.408l.155-.177s1.519-.034 3.114 1.164c0 0 1.596 2.893 1.596 6.461 0 0-.942 1.606-3.392 1.684z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <p class="comunity-text">
+                        <span class="comunity-title comunity-purple">Comparte</span> conocimientos en los canales de
+                        Discord de los que desees formar parte.
+                    </p>
+                </div>
+            </div>
+            <div class="comunity-description-box">
+                <div class="comunity-box">
+                    <div class="comunity-icon comunity-icon-green">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 28 28" height="1em" width="1em"
+                            style="fill: currentcolor;" role="img"
+                            class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicHomepage_svg__zg4Wj__v8crP">
+                            <path
+                                d="M14 2.333C7.567 2.333 2.334 7.567 2.334 14S7.567 25.667 14 25.667c6.433 0 11.667-5.234 11.667-11.667S20.433 2.333 14 2.333zM15.167 21h-2.333v-2.333h2.333V21zm1.138-5.7c-.228.185-.449.361-.624.536-.476.475-.513.907-.514.926v.155h-2.333v-.195c0-.138.033-1.373 1.197-2.537.227-.227.51-.458.806-.698.856-.694 1.418-1.2 1.418-1.899a2.257 2.257 0 00-4.511.002H9.41C9.41 9.06 11.47 7 14 7s4.589 2.06 4.589 4.59c0 1.863-1.376 2.975-2.285 3.71z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <p class="comunity-text">
+                        <span class="comunity-title comunity-green">Resuelve</span> tus dudas con tutorías en tiempo
+                        real con nuestros formadores.
+                    </p>
+                </div>
+            </div>
+            <button class="start-now btn-blue mt-5">Empieza ya</button>
+        </div>
+    </section>
+    <section class="sec-testimonio">
+        <div class="testimonio-description">
+            <h4 class="testimonio-title">¿Por qué elegir OpenBootcamp?</h4>
+            <p class="testimonio-text">Nuestros alumnos os cuentan la experiencia que han tenido desde que comenzaron la
+                formación en nuestro campus hasta la introducción en nuestra bolsa de empleo y obtención de vacantes de
+                trabajo que les hemos facilitado.</p>
+        </div>
+        <div class="testimonio-box">
+            <div class="testimonio-card">
+                <div class="testimonio-img">
+                    <div class="testimonio-player">
+                        <i class="bi bi-play-fill"></i>
+                    </div>
+                </div>
+                <div class="testimonio-body">
+                    <span class="testimonio-pic"><i class="bi bi-person-fill"></i></span>
+                    <h6 class="testimonio-title">María Beatriz Vivanco</h6>
+                    <p class="testimonio-text">"Gracias a OpenBootcamp en 4 meses pude actualizarme y conocer nuevas
+                        tecnologías con las que conseguí un trabajo como FullStack en el que estoy muy contenta".</p>
+                </div>
+            </div>
+            <div class="testimonio-card">
+                <div class="testimonio-img">
+                    <div class="testimonio-player">
+                        <i class="bi bi-play-fill"></i>
+                    </div>
+                </div>
+                <div class="testimonio-body">
+                    <span class="testimonio-pic"><i class="bi bi-person-fill"></i></span>
+                    <h6 class="testimonio-title">Ana Fernández</h6>
+                    <p class="testimonio-text">"Vengo de la rama del diseño gráfico y he estado estudiando en
+                        OpenBootcamp 2-3 meses y gracias a esta formación, estoy trabajando de desarrolladora web en una
+                        empresa".</p>
+                </div>
+            </div>
+            <div class="testimonio-card">
+                <div class="testimonio-img">
+                    <div class="testimonio-player"><i class="bi bi-play-fill"></i></div>
+                </div>
+                <div class="testimonio-body">
+                    <span class="testimonio-pic"><i class="bi bi-person-fill"></i></span>
+                    <h6 class="testimonio-title">Ignacio de Bats</h6>
+                    <p class="testimonio-text">"Entré a principios de Octubre cuando empezó OB y el 10 de Enero ya
+                        estaba firmando el contrato como programador".</p>
+                </div>
+            </div>
+        </div>
+        <button class="start-now btn-blue">Empieza ya</button>
+    </section>
+    <section class="sec-route">
+        <h4 class="route-title-header">Encuentra el nivel que se adapte a ti</h4>
+        <p class="route-text-header">Tenemos hojas de ruta confeccionadas para cada tipo de alumno, tanto los que
+            empiezan en el mundo del desarrollo como los que ya tienen conocimientos avanzados y solo necesitan un
+            último empujón que les lance al entorno laboral.</p>
+        <div class="route-container">
+            <div class="route-box route-box-grey1">
+                <h6 class="route-title">Principiante</h6>
+                <span class="route-description">Curso de Programación desde 0 Gratis</span>
+                <svg class="route-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" role="img"
+                    class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicRoadmapGrid_svg__eJjL9__1U7zE">
+                    <path
+                        d="M13.125 6.875H4.009l3.308-3.308-.884-.884L1.616 7.5l4.817 4.817.884-.884-3.308-3.308h9.116v-1.25z"
+                        fill="#616161"></path>
+                </svg>
+                <div class="route-tech">
+                    <div class="route-level">
+                        <img src="../assets/img/route-intro.webp" alt="Introducción a la Programación"
+                            class="route-img" />
+                        <p class="route-text">Introducción a la Programación</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-html-css.webp" alt="HTML y CSS" class="route-img" />
+                        <p class="route-text">HTML y CSS</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-js.webp" alt="JavaScript" class="route-img" />
+                        <p class="route-text">JavaScript</p>
+                    </div>
+                </div>
+            </div>
+            <div class="route-box route-box-grey2">
+                <h6 class="route-title">Front-End</h6>
+                <span class="route-description">Curso de Front-End Gratis</span>
+                <svg class="route-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" role="img"
+                    class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicRoadmapGrid_svg__eJjL9__1U7zE">
+                    <path
+                        d="M13.125 6.875H4.009l3.308-3.308-.884-.884L1.616 7.5l4.817 4.817.884-.884-3.308-3.308h9.116v-1.25z"
+                        fill="#616161"></path>
+                </svg>
+                <div class="route-tech">
+                    <div class="route-level">
+                        <img src="../assets/img/route-react.webp" alt="React" class="route-img" />
+                        <p class="route-text">React</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-angular.webp" alt="Angular" class="route-img" />
+                        <p class="route-text">Angular</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-vue.webp" alt="VueJS" class="route-img" />
+                        <p class="route-text">VueJS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="route-box route-box-grey3">
+                <h6 class="route-title">Back-End</h6>
+                <span class="route-description">Curso de Back-End Gratis</span>
+                <svg class="route-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" role="img"
+                    class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicRoadmapGrid_svg__eJjL9__1U7zE">
+                    <path
+                        d="M13.125 6.875H4.009l3.308-3.308-.884-.884L1.616 7.5l4.817 4.817.884-.884-3.308-3.308h9.116v-1.25z"
+                        fill="#616161"></path>
+                </svg>
+                <div class="route-tech">
+                    <div class="route-level">
+                        <img src="../assets/img/route-php.webp" alt="PHP" class="route-img" />
+                        <p class="route-text">PHP</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-python.webp" alt="Python" class="route-img" />
+                        <p class="route-text">Python</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-java.webp" alt="Java" class="route-img" />
+                        <p class="route-text">Java</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-nodejs.webp" alt="NodeJS" class="route-img" />
+                        <p class="route-text">NodeJS</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-csharp.webp" alt="C#" class="route-img" />
+                        <p class="route-text">C#</p>
+                    </div>
+                </div>
+            </div>
+            <div class="route-box route-box-grey4">
+                <h6 class="route-title">FullStack</h6>
+                <span class="route-description">Curso de FullStack <br /> Gratis</span>
+                <svg class="route-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" role="img"
+                    class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicRoadmapGrid_svg__eJjL9__1U7zE">
+                    <path
+                        d="M13.125 6.875H4.009l3.308-3.308-.884-.884L1.616 7.5l4.817 4.817.884-.884-3.308-3.308h9.116v-1.25z"
+                        fill="#616161"></path>
+                </svg>
+                <div class="route-tech">
+                    <div class="route-level">
+                        <svg class="route-img" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40"
+                            role="img"
+                            class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicRoadmapGrid_svg___0UNdX__eAyNI">
+                            <path
+                                d="M33.333 5H6.667a3.337 3.337 0 00-3.334 3.333v23.334A3.337 3.337 0 006.667 35h26.666a3.337 3.337 0 003.334-3.333V8.333A3.337 3.337 0 0033.333 5zM6.667 31.667v-20h26.666l.004 20H6.667z"
+                                fill="#68E1FD"></path>
+                            <path
+                                d="M15.488 15.488L9.31 21.667l6.178 6.178 2.357-2.357-3.822-3.821 3.822-3.822-2.357-2.357zm9.024 0l-2.357 2.357 3.822 3.822-3.822 3.821 2.357 2.357 6.178-6.178-6.178-6.179z"
+                                fill="#68E1FD"></path>
+                        </svg>
+                        <p class="route-text">Front + Back</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-angular.webp" alt="MEAN" class="route-img" />
+                        <p class="route-text">MEAN</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-react.webp" alt="MERN" class="route-img" />
+                        <p class="route-text">MERN</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-vue.webp" alt="MEVN" class="route-img" />
+                        <p class="route-text">MEVN</p>
+                    </div>
+                    <div class="route-level">
+                        <img src="../assets/img/route-js.webp" alt="Serverless" class="route-img" />
+                        <p class="route-text">Serverless</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="start-now mt-5 btn-blue">Ver todos los cursos</button>
+    </section>
+    <section class="sec-empresa">
+        <img src="../assets/img/empresa.webp" alt="Empresa" class="sec-empresa-img" />
+        <div class="empresa-main">
+            <h4 class="empresa-main-title">¿Eres una empresa? </h4>
+            <p class="empresa-main-text">OpenBootcamp te ofrece a los mejores profesionales del sector para incorporarse
+                a tu plantilla.</p>
+            <div class="empresa-main-container">
+                <div class="empresa-description">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 71 71" height="1em" width="1em"
+                        style="fill: currentcolor;" role="img" class="empresa-icon">
+                        <path
+                            d="M24.343 18.473L7.591 35.224l16.752 16.752 4.151-4.15-12.602-12.602 12.602-12.602-4.15-4.15zm21.763 33.504L62.86 35.225 46.106 18.472l-4.15 4.151 12.602 12.602-12.602 12.602 4.15 4.15z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <span class="empresa-text">Desarrolladores comprometidos</span>
+                </div>
+                <div class="empresa-description">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 71 71" height="1em" width="1em"
+                        style="fill: currentcolor;" role="img" class="empresa-icon">
+                        <path
+                            d="M19.838 25.709l-4.151-4.151a23.624 23.624 0 00-5.404 8.392l5.498 2.058a17.754 17.754 0 014.057-6.3zm35.935 12.449c0-6.276-2.442-12.17-6.88-16.6a23.24 23.24 0 00-13.668-6.678V5.87L20.548 17.613l14.677 11.742V20.81a17.447 17.447 0 019.517 4.9 17.482 17.482 0 015.16 12.451v.006c0 .97-.097 1.923-.252 2.868-.02.127-.032.259-.056.385-.17.901-.417 1.779-.725 2.648a17.353 17.353 0 01-2.615 4.796c-.47.614-.972 1.21-1.515 1.752a17.484 17.484 0 01-2.137 1.8 17.91 17.91 0 01-1.764 1.139 17.337 17.337 0 01-4.92 1.84c-.417.089-.837.147-1.262.203-.182.026-.358.062-.54.08a17.917 17.917 0 01-5.572-.303L27.3 61.113a23.349 23.349 0 007.438.4c.203-.022.406-.063.608-.09a22.78 22.78 0 001.791-.287c.053-.012.103-.015.156-.026l-.003-.015a23.124 23.124 0 006.27-2.334l.003.003c.03-.017.056-.038.082-.056.834-.46 1.635-.989 2.41-1.552a23.833 23.833 0 002.836-2.395 23.85 23.85 0 001.998-2.305c.062-.082.144-.156.206-.238l-.018-.012a23.184 23.184 0 003.209-5.862l.023.01c.085-.23.147-.465.223-.696.109-.323.22-.65.315-.978.117-.41.214-.825.308-1.242.064-.29.14-.572.193-.866.094-.502.165-1.01.224-1.514.029-.223.067-.44.088-.667.067-.73.108-1.467.108-2.21.006-.006.006-.012.006-.023zM18.191 48.719l-4.697 3.526c.672.895 1.41 1.743 2.19 2.518a23.612 23.612 0 005.351 4.013l2.821-5.149a17.667 17.667 0 01-4.024-3.02 17.756 17.756 0 01-1.641-1.888zM14.677 38.16c0-.425.015-.842.044-1.259l-5.853-.42a23.417 23.417 0 001.418 9.898l5.498-2.057a17.537 17.537 0 01-1.107-6.162z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <span class="empresa-text">Elimina la rotación</span>
+                </div>
+                <div class="empresa-description">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 71 71" height="1em" width="1em"
+                        style="fill: currentcolor;" role="img" class="empresa-icon">
+                        <path
+                            d="M35.225 5.87C19.04 5.87 5.871 19.04 5.871 35.226S19.039 64.58 35.225 64.58 64.58 51.411 64.58 35.225 51.411 5.871 35.225 5.871zm0 52.839c-12.948 0-23.483-10.536-23.483-23.484 0-12.948 10.535-23.483 23.483-23.483s23.483 10.535 23.483 23.483-10.535 23.483-23.483 23.483z"
+                            fill="currentColor"></path>
+                        <path d="M38.16 20.548h-5.87v17.613h17.612V32.29H38.16V20.548z" fill="currentColor"></path>
+                    </svg>
+                    <span class="empresa-text">Desarrolladores en 1 semana</span>
+                </div>
+                <button class="start-now btn-light mt-5">Contrata desarrolladores</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-social-net">
+            <div class="footer-box">
+                <div class="footer-sec d-flex">
+                    <a href="https://open-bootcamp.com/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 550 150" width="7.5em" alt="OpenBootcamp Logo" role="img" class="plasmic-default__svg plasmic_open_bootcamp_v_2_0_all__6KPZb PlasmicLogo_svg__DNShe undefined"><path d="M190.101 60.606c-5.309 0-10.106-1.143-14.393-3.43-4.237-2.286-7.573-5.423-10.008-9.412-2.387-4.038-3.58-8.562-3.58-13.573 0-5.01 1.193-9.51 3.58-13.499 2.435-4.037 5.771-7.2 10.008-9.486 4.287-2.286 9.084-3.43 14.393-3.43 5.309 0 10.082 1.144 14.319 3.43 4.238 2.287 7.574 5.449 10.009 9.486 2.435 3.99 3.653 8.489 3.653 13.5 0 5.01-1.218 9.534-3.653 13.572-2.435 3.989-5.771 7.126-10.009 9.413-4.237 2.286-9.01 3.43-14.319 3.43zm0-10.07c3.02 0 5.747-.68 8.182-2.043 2.436-1.41 4.335-3.356 5.699-5.837 1.412-2.481 2.119-5.303 2.119-8.465s-.707-5.983-2.119-8.464c-1.364-2.48-3.263-4.402-5.699-5.764-2.435-1.411-5.162-2.117-8.182-2.117-3.02 0-5.747.706-8.183 2.117-2.435 1.362-4.359 3.283-5.771 5.764-1.364 2.481-2.046 5.302-2.046 8.464 0 3.162.682 5.984 2.046 8.465 1.412 2.48 3.336 4.427 5.771 5.837 2.436 1.362 5.163 2.043 8.183 2.043zm57.844-30.646c3.652 0 6.964.85 9.935 2.553 3.02 1.654 5.382 4.014 7.087 7.078 1.705 3.017 2.557 6.543 2.557 10.581 0 4.038-.852 7.589-2.557 10.653-1.705 3.017-4.067 5.376-7.087 7.078-2.971 1.654-6.283 2.481-9.935 2.481-5.017 0-8.962-1.58-11.836-4.743v18.316l-11.397-3.005V20.473h10.886v4.524c2.825-3.405 6.94-5.107 12.347-5.107zm-1.973 31.084c2.922 0 5.309-.973 7.16-2.918 1.899-1.995 2.849-4.646 2.849-7.954s-.95-5.935-2.849-7.88c-1.851-1.995-4.238-2.992-7.16-2.992-2.922 0-5.333.997-7.233 2.991-1.851 1.946-2.776 4.573-2.776 7.881s.925 5.96 2.776 7.954c1.9 1.945 4.311 2.918 7.233 2.918zm66.222-10.726c0 .146-.073 1.167-.219 3.065H282.24c.536 2.432 1.802 4.353 3.799 5.764 1.997 1.41 4.481 2.116 7.452 2.116 2.046 0 3.848-.292 5.406-.875 1.608-.633 3.093-1.606 4.457-2.92l6.064 6.568c-3.702 4.232-9.108 6.348-16.219 6.348-4.432 0-8.353-.85-11.763-2.554-3.409-1.75-6.039-4.159-7.89-7.224-1.851-3.064-2.776-6.542-2.776-10.434 0-3.843.901-7.297 2.703-10.362 1.851-3.113 4.359-5.52 7.525-7.223 3.215-1.752 6.794-2.627 10.74-2.627 3.847 0 7.33.827 10.447 2.48 3.117 1.654 5.552 4.038 7.306 7.151 1.802 3.065 2.703 6.64 2.703 10.727zM291.811 28.5c-2.582 0-4.749.73-6.502 2.189-1.754 1.46-2.825 3.454-3.215 5.983h19.36c-.389-2.48-1.461-4.45-3.214-5.91-1.754-1.508-3.897-2.262-6.429-2.262zm50.399-8.61c4.871 0 8.792 1.459 11.763 4.378 3.019 2.918 4.529 7.248 4.529 12.988v22.475h-11.397V39.007c0-3.113-.682-5.424-2.045-6.932-1.364-1.556-3.337-2.335-5.918-2.335-2.874 0-5.163.9-6.868 2.7-1.704 1.752-2.557 4.378-2.557 7.88v19.41H318.32V20.474h10.886v4.597c1.51-1.654 3.385-2.918 5.626-3.794 2.24-.924 4.7-1.386 7.378-1.386zm-136.806 83.385c2.946.985 5.254 2.645 6.924 4.979 1.67 2.281 2.504 5.108 2.504 8.479 0 4.771-1.767 8.453-5.303 11.046-3.486 2.541-8.593 3.812-15.321 3.812h-26.664V77.138h25.191c6.285 0 11.098 1.27 14.437 3.811 3.388 2.541 5.082 5.99 5.082 10.347 0 2.644-.613 5.004-1.841 7.078-1.179 2.075-2.848 3.708-5.009 4.901zm-26.001-16.647v12.835h11.859c2.946 0 5.18-.544 6.703-1.633 1.522-1.09 2.283-2.697 2.283-4.823 0-2.126-.761-3.708-2.283-4.745-1.523-1.09-3.757-1.634-6.703-1.634h-11.859zm13.921 35.472c3.143 0 5.5-.544 7.071-1.633 1.621-1.089 2.431-2.775 2.431-5.057 0-4.511-3.167-6.767-9.502-6.767h-13.921V122.1h13.921zm47.115 10.113c-4.174 0-7.93-.908-11.269-2.723-3.29-1.867-5.868-4.434-7.734-7.701-1.866-3.267-2.799-6.975-2.799-11.124 0-4.149.933-7.857 2.799-11.124 1.866-3.267 4.444-5.808 7.734-7.623 3.339-1.867 7.095-2.8 11.269-2.8s7.906.933 11.196 2.8c3.29 1.815 5.868 4.356 7.734 7.623 1.866 3.267 2.799 6.975 2.799 11.124 0 4.149-.933 7.857-2.799 11.124-1.866 3.267-4.444 5.834-7.734 7.701-3.29 1.815-7.022 2.723-11.196 2.723zm0-9.957c2.947 0 5.353-1.037 7.219-3.112 1.915-2.126 2.873-4.952 2.873-8.479 0-3.526-.958-6.327-2.873-8.401-1.866-2.126-4.272-3.19-7.219-3.19-2.946 0-5.377 1.064-7.292 3.19-1.915 2.074-2.872 4.875-2.872 8.401 0 3.527.957 6.353 2.872 8.479 1.915 2.075 4.346 3.112 7.292 3.112zm46.793 9.957c-4.174 0-7.93-.908-11.269-2.723-3.29-1.867-5.868-4.434-7.734-7.701-1.866-3.267-2.799-6.975-2.799-11.124 0-4.149.933-7.857 2.799-11.124 1.866-3.267 4.444-5.808 7.734-7.623 3.339-1.867 7.095-2.8 11.269-2.8s7.906.933 11.196 2.8c3.29 1.815 5.868 4.356 7.734 7.623 1.866 3.267 2.799 6.975 2.799 11.124 0 4.149-.933 7.857-2.799 11.124-1.866 3.267-4.444 5.834-7.734 7.701-3.29 1.815-7.022 2.723-11.196 2.723zm0-9.957c2.947 0 5.353-1.037 7.219-3.112 1.915-2.126 2.872-4.952 2.872-8.479 0-3.526-.957-6.327-2.872-8.401-1.866-2.126-4.272-3.19-7.219-3.19-2.946 0-5.377 1.064-7.292 3.19-1.915 2.074-2.872 4.875-2.872 8.401 0 3.527.957 6.353 2.872 8.479 1.915 2.075 4.346 3.112 7.292 3.112zm53.496 7.312c-1.129.882-2.529 1.556-4.198 2.023-1.621.415-3.34.622-5.156.622-4.715 0-8.373-1.271-10.975-3.812-2.554-2.541-3.831-6.275-3.831-11.202v-17.191h-6.113v-9.335h6.113V77.138l11.491 3.345v10.19h9.87v9.335h-9.87v17.036c0 1.763.417 3.137 1.252 4.123.884.933 2.112 1.4 3.683 1.4 1.817 0 3.364-.519 4.64-1.556l3.094 8.557zm22.905 2.645c-4.223 0-8.028-.908-11.417-2.723-3.339-1.867-5.966-4.434-7.881-7.701-1.866-3.267-2.799-6.975-2.799-11.124 0-4.149.933-7.857 2.799-11.124 1.915-3.267 4.542-5.808 7.881-7.623 3.389-1.867 7.194-2.8 11.417-2.8 4.174 0 7.808.933 10.902 2.8 3.142 1.815 5.426 4.434 6.85 7.857l-8.913 5.056c-2.062-3.838-5.033-5.757-8.912-5.757-2.996 0-5.476 1.038-7.44 3.112-1.964 2.074-2.946 4.901-2.946 8.479 0 3.578.982 6.405 2.946 8.479 1.964 2.075 4.444 3.112 7.44 3.112 3.928 0 6.899-1.919 8.912-5.757l8.913 5.135c-1.424 3.319-3.708 5.912-6.85 7.779-3.094 1.866-6.728 2.8-10.902 2.8zm38.879-43.096c6.138 0 10.852 1.556 14.142 4.668 3.29 3.06 4.935 7.701 4.935 13.924v23.882h-10.754v-5.212c-2.161 3.889-6.187 5.834-12.08 5.834-3.045 0-5.696-.545-7.955-1.634-2.21-1.089-3.904-2.593-5.082-4.511-1.179-1.919-1.768-4.097-1.768-6.535 0-3.889 1.375-6.949 4.125-9.179 2.799-2.23 7.095-3.345 12.89-3.345h9.133c0-2.645-.761-4.667-2.283-6.068-1.522-1.452-3.806-2.178-6.85-2.178-2.112 0-4.199.363-6.261 1.09-2.014.674-3.732 1.607-5.156 2.8l-4.125-8.48c2.161-1.607 4.739-2.852 7.734-3.733a33.464 33.464 0 019.355-1.323zm-.884 34.928c1.964 0 3.707-.467 5.229-1.4 1.523-.986 2.603-2.412 3.241-4.279v-4.278h-7.881c-4.714 0-7.071 1.633-7.071 4.901 0 1.555.564 2.8 1.694 3.734 1.178.881 2.774 1.322 4.788 1.322zm79.638-34.928c4.959 0 8.888 1.556 11.785 4.668 2.946 3.06 4.419 7.675 4.419 13.846v23.96h-11.49v-22.093c0-3.319-.663-5.782-1.989-7.39-1.277-1.659-3.118-2.489-5.524-2.489-2.701 0-4.837.933-6.409 2.8-1.571 1.816-2.357 4.538-2.357 8.168v21.004h-11.49v-22.093c0-6.586-2.505-9.879-7.513-9.879-2.652 0-4.764.933-6.335 2.8-1.571 1.816-2.357 4.538-2.357 8.168v21.004h-11.491V89.74h10.975v4.823a14.615 14.615 0 015.377-4.045c2.161-.934 4.518-1.4 7.071-1.4 2.799 0 5.328.596 7.587 1.788 2.259 1.141 4.076 2.827 5.451 5.057a16.48 16.48 0 016.114-5.056c2.504-1.193 5.229-1.79 8.176-1.79zm48.454 0c3.683 0 7.022.908 10.017 2.723 3.045 1.763 5.426 4.278 7.145 7.546 1.719 3.215 2.578 6.975 2.578 11.279 0 4.305-.859 8.09-2.578 11.357-1.719 3.216-4.1 5.731-7.145 7.546-2.995 1.763-6.334 2.645-10.017 2.645-5.058 0-9.035-1.686-11.933-5.056v22.593l-11.49-3.068V89.74h10.975v4.823c2.848-3.63 6.997-5.446 12.448-5.446zm-1.989 33.139c2.946 0 5.353-1.037 7.219-3.112 1.915-2.126 2.872-4.952 2.872-8.479 0-3.526-.957-6.327-2.872-8.401-1.866-2.126-4.273-3.19-7.219-3.19-2.946 0-5.377 1.064-7.292 3.19-1.866 2.074-2.799 4.875-2.799 8.401 0 3.527.933 6.353 2.799 8.479 1.915 2.075 4.346 3.112 7.292 3.112z" fill="#fff"></path><circle cx="46.04" cy="45.75" r="45.5" fill="#0BF082"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M94.457 45.856H45.505v89.421h48.952c13.208 0 23.915-10.707 23.915-23.915 0-8.909-4.872-16.68-12.097-20.795 7.225-4.115 12.097-11.887 12.097-20.796 0-13.208-10.707-23.915-23.915-23.915z" fill="#047AF3"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M91.165 45.856c0 25.187-20.442 45.605-45.657 45.605h-.003V45.856h45.66z" fill="#0DC0CB"></path></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="footer-sec">
+                    <h6 class="footer-title">Redes sociales</h6>
+                    <div class="footer-description">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16" height="20"
+                                width="20" style="fill: currentcolor;" class="footer-icon">
+                                <path
+                                    d="M3.922 4.798a1.459 1.459 0 100-2.918 1.459 1.459 0 000 2.918zm2.836 1.105v8.093h2.513V9.994c0-1.056.198-2.079 1.508-2.079 1.291 0 1.307 1.208 1.307 2.145v3.936H14.6V9.558c0-2.18-.47-3.855-3.017-3.855-1.224 0-2.044.671-2.379 1.307H9.17V5.903H6.758zm-4.095 0H5.18v8.093H2.663V5.903z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            <span class="footer-text">LinkedIn</span>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16" height="20" width="20" style="fill: currentcolor;" class="plasmic-default__svg"><path d="M13.689 5.332c.009.116.009.232.009.348 0 3.55-2.702 7.641-7.64 7.641a7.587 7.587 0 01-4.124-1.206c.216.025.424.033.648.033a5.38 5.38 0 003.334-1.147 2.69 2.69 0 01-2.511-1.862c.166.025.333.041.507.041.24 0 .483-.033.708-.091a2.685 2.685 0 01-2.154-2.635V6.42c.358.2.774.324 1.214.341a2.681 2.681 0 01-1.198-2.236c0-.499.133-.956.366-1.355a7.638 7.638 0 005.537 2.81 3.05 3.05 0 01-.067-.615 2.684 2.684 0 012.686-2.685c.773 0 1.47.324 1.962.848a5.305 5.305 0 001.704-.649 2.68 2.68 0 01-1.181 1.48 5.382 5.382 0 001.546-.416 5.763 5.763 0 01-1.346 1.389z" fill="currentColor"></path></svg>
+                            <span class="footer-text">Twitter</span>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16" height="20" width="20" style="fill: currentcolor;" class="plasmic-default__svg"><path d="M8.6 4.918a3.082 3.082 0 100 6.163 3.082 3.082 0 000-6.163zm0 5.085a2.003 2.003 0 110-4.005 2.003 2.003 0 010 4.005zm3.204-4.48a.719.719 0 100-1.437.719.719 0 000 1.437z" fill="currentColor"></path><path d="M14.289 4.075a3.07 3.07 0 00-1.755-1.755 4.404 4.404 0 00-1.458-.28c-.642-.028-.845-.036-2.473-.036s-1.837 0-2.473.036a4.37 4.37 0 00-1.456.28 3.066 3.066 0 00-1.756 1.755 4.39 4.39 0 00-.28 1.457c-.028.641-.036.845-.036 2.473s0 1.836.037 2.474c.01.498.104.99.28 1.458a3.071 3.071 0 001.755 1.754c.464.182.957.284 1.457.3.642.028.845.037 2.473.037s1.837 0 2.474-.037a4.41 4.41 0 001.457-.28 3.075 3.075 0 001.755-1.754c.176-.467.27-.96.28-1.458.028-.641.037-.844.037-2.473s0-1.835-.037-2.473a4.387 4.387 0 00-.281-1.478zm-.812 6.354a3.364 3.364 0 01-.207 1.126 1.994 1.994 0 01-1.142 1.14 3.324 3.324 0 01-1.113.208c-.633.029-.812.036-2.436.036-1.625 0-1.791 0-2.437-.036a3.306 3.306 0 01-1.112-.208 1.99 1.99 0 01-1.146-1.14 3.388 3.388 0 01-.208-1.113c-.028-.633-.035-.812-.035-2.436 0-1.625 0-1.79.035-2.437.005-.384.074-.764.208-1.124A1.99 1.99 0 015.03 3.303a3.34 3.34 0 011.112-.207c.634-.029.812-.037 2.437-.037 1.625 0 1.791 0 2.436.037.38.005.757.075 1.113.207.524.202.938.617 1.142 1.142.13.356.2.732.207 1.112.029.634.036.812.036 2.437 0 1.624 0 1.799-.029 2.436h-.007z" fill="currentColor"></path></svg>
+                            <span class="footer-text">Instagram</span>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="20" width="20" style="fill: currentcolor;" class="plasmic-default__svg"><path d="M4.265 3L3 6.236v13.223h4.502V21l2.531.85 2.392-2.391h3.658l4.923-4.924V3H4.265zm15.052 10.691l-2.813 2.814h-4.502l-2.391 2.391v-2.391H5.813V4.688h13.504v9.003zm-2.812-5.767v4.923h-1.688V7.924h1.688zm-4.502 0v4.923h-1.688V7.924h1.688z" fill="currentColor"></path></svg>
+                            <span class="footer-text">Twitch</span>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="20" width="20" style="fill: currentcolor;" class="plasmic-default__svg"><path d="M21.593 7.203a2.506 2.506 0 00-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 00-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.83-.403a2.515 2.515 0 001.768-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z" fill="currentColor"></path></svg>
+                            <span class="footer-text">Youtube</span>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="20" width="20" style="fill: currentcolor;" class="plasmic-default__svg"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1h-.04z" fill="currentColor"></path></svg>
+                            <span class="footer-text">TikTok</span>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16" height="20" width="20" style="fill: currentcolor;" class="plasmic-default__svg"><path d="M9.532 13.998V8.534h1.843l.274-2.14H9.532V5.033c0-.617.172-1.04 1.058-1.04h1.122V2.085A14.89 14.89 0 0010.068 2c-1.63 0-2.748.995-2.748 2.82v1.57H5.488v2.14h1.836v5.468h2.208z" fill="currentColor"></path></svg>
+                            <span class="footer-text">Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="footer-sec">
+                    <h6 class="footer-title">Políticas</h6>
+                    <div class="footer-description">
+                        <a href="#">
+                            <span class="footer-text">Política de Cookies</span>
+                        </a>
+                        <a href="#">
+                            <span class="footer-text">Política de privacidad</span>
+                        </a>
+                        <a href="#">
+                            <span class="footer-text">Términos y condiciones</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="footer-sec">
+                    <h6 class="footer-title">Explora</h6>
+                    <div class="footer-description">
+                        <a href="#">
+                            <span class="footer-text">Acceso al campus</span>
+                        </a>
+                        <a href="#">
+                            <span class="footer-text">Trabaj como desarrollador</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-description-bottom">© 2022 OpenBootcamp SL. Todos los derechos reservados.</p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

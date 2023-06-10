@@ -1,0 +1,48 @@
+@use "colors" as *;
+
+@mixin header-btn($bg-color, $bg-color-hover) {
+    border: none;
+    padding: .6rem 1.2rem;
+    color: #fff;
+    background-color: $bg-color;
+    border-radius: .4rem;
+    font-weight: 700;
+    font-size: 1rem;
+
+    &:hover {
+        background-color: $bg-color-hover;
+    }
+}
+
+@mixin main-btn($bg-color, $bg-hover) {
+    @include header-btn($bg-color, $bg-hover);
+    padding: .9rem 2rem;
+}
+
+@mixin benefits($bg-color, $shadow) {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 1rem #0003;
+    width: fit-content;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .main-benefit-text {
+        font-weight: bold;
+    }
+}
+
+@mixin benefits-icon ($bg-color, $shadow) {
+    .main-benefit-svg {
+        display: flex;
+        padding: .5rem;
+        background-color: $bg-color;
+        border-radius: 100%;
+        box-shadow: 0 0 0 .2rem $shadow;
+        height: fit-content;
+        svg {
+            color: #fff;
+        }
+    }
+}
